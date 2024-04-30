@@ -232,6 +232,10 @@ margin-top: -150px;
 }
 .ss{
 	transition: 0.3s;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	margin: 0 10px;
 }
 .ss:hover{
 	transform: scale(1.1);
