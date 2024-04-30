@@ -220,8 +220,8 @@ margin-top: -150px;
     display: flex;
     justify-content: center;  /* Center items horizontally */
     flex-wrap: wrap;          /* Allow items to wrap as needed */
-    gap: 30px;                /* Add space between items */
-    width: 1400px;            /* Adjust width as needed */
+    gap: 1000px;                /* Add space between items */
+    width: 1500px;            /* Adjust width as needed */
     margin: 0 auto;           /* Center the flex container */
     padding: 100px 0;         /* Padding for visual spacing */
 }
