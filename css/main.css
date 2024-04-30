@@ -216,28 +216,29 @@ margin-top: -150px;
 	transform: translateY(170px) translateX(-100px);
 	z-index: 10;
 }
-.socials{
-	width: 1100px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: center;
-	z-index: 9999;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	flex-wrap: wrap;
+.socials {
+    display: flex;
+    justify-content: center;  /* Center items horizontally */
+    flex-wrap: wrap;          /* Allow items to wrap as needed */
+    gap: 30px;                /* Add space between items */
+    width: 1100px;            /* Adjust width as needed */
+    margin: 0 auto;           /* Center the flex container */
+    padding: 100px 0;         /* Padding for visual spacing */
 }
-.socials img{
-	width: 400px;
-	
-	transform: translateY(0px) translateX(0px);
+
+.ss {
+    flex: 0 0 auto;           /* Do not grow or shrink, and based on content width */
+    transition: 0.3s;         /* Smooth transitions on hover */
 }
-.ss{
-	transition: 0.3s;
-	flex: 1 0 auto;
-	margin: 0 15px;
+
+.ss:hover {
+    transform: scale(1.1);    /* Slight zoom effect on hover */
 }
-.ss:hover{
-	transform: scale(1.1);
+
+.socials img {
+    display: block;           /* Remove bottom space caused by inline elements */
+    width: 400px;             /* Fixed width for each image */
+}
 
 	
 }
