@@ -111,7 +111,7 @@ header{
     min-height: 870px;
 }
 .about{
-	width: 2000px;
+	width: 1400px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -121,8 +121,7 @@ header{
 	padding-top: 75px;
 }
 .a_capt{
-	width: 1300px;
-	font-size: 100px;
+	width: 700px;
 }
 .h{
 	font-family: 'bloxatregular';
@@ -175,7 +174,7 @@ header{
 .ad{
 	padding-top: 75px;
 	padding-bottom: 150px;
-	width: 1100px;
+	width: 1000px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -195,7 +194,7 @@ margin-top: -150px;
 .soc{
 	display: flex;
 	justify-content: center;
-	width: 1500px;
+	width: 1400px;
 	margin: 0 auto;
 	border-bottom: 7px solid #847e87;
 }
@@ -217,29 +216,25 @@ margin-top: -150px;
 	transform: translateY(170px) translateX(-100px);
 	z-index: 10;
 }
-.socials {
-    display: flex;
-    justify-content: center;  /* Center items horizontally */
-    flex-wrap: wrap;          /* Allow items to wrap as needed */
-    gap: 130px;                /* Add space between items */
-    width: 1990px;            /* Adjust width as needed */
-    margin: 0 auto;           /* Center the flex container */
-    padding: 100px 0;         /* Padding for visual spacing */
+.socials{
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	z-index: 9999;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
-
-.ss {
-    flex: 0 0 auto;           /* Do not grow or shrink, and based on content width */
-    transition: 0.3s;         /* Smooth transitions on hover */
+.socials img{
+	width: 400px;
+	
+	transform: translateY(0px) translateX(0px);
 }
-
-.ss:hover {
-    transform: scale(1.1);    /* Slight zoom effect on hover */
+.ss{
+	transition: 0.3s;
 }
-
-.socials img {
-    display: block;           /* Remove bottom space caused by inline elements */
-    width: 400px;             /* Fixed width for each image */
-}
+.ss:hover{
+	transform: scale(1.1);
 
 	
 }
