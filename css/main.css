@@ -111,7 +111,7 @@ header{
     min-height: 870px;
 }
 .about{
-	width: 1400px;
+	width: 2000px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -121,7 +121,8 @@ header{
 	padding-top: 75px;
 }
 .a_capt{
-	width: 750px;
+	width: 1300px;
+	font-size: 100px;
 }
 .h{
 	font-family: 'bloxatregular';
