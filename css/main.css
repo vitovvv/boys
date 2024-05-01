@@ -216,24 +216,25 @@ margin-top: -150px;
 	transform: translateY(170px) translateX(-100px);
 	z-index: 10;
 }
-.socials{
-	width: 1500px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	z-index: 9999;
-	padding-top: 100px;
-	padding-bottom: 100px;
-	margin-left: 200px;
+.socials {
+    width: 1500px; /* Or adjust this width as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.socials img{
-	width: 400px;
-	margin-right: 30px;
-	
-	transform: translateY(0px) translateX(0px);
+
+.socials img {
+    width: 400px;
+    margin-right: 30px;
+    transform: translateY(0px) translateX(0px);
 }
-.ss{
-	transition: 0.3s;
+
+.ss {
+    transition: 0.3s;
+}
 }
 .ss:hover{
 	transform: scale(1.1);
